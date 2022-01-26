@@ -27,7 +27,6 @@ export default function MainContent() {
 
 const styles = StyleSheet.create({
   flexParent: {
-    //height: Platform.OS === 'ios' ? 54 : 41,
     flex: 1,
     display: 'flex',
     flexDirection: 'column',
@@ -39,8 +38,7 @@ const styles = StyleSheet.create({
     width: '90%',
     maxWidth: 525,
     alignSelf: 'center',
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+    
   },
 
 });

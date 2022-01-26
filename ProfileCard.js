@@ -27,14 +27,11 @@ export default function ProfileCard() {
 
 const styles = StyleSheet.create({
   flexParent: {
-    //height: Platform.OS === 'ios' ? 54 : 41,
     flex: 1,
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    //alignSelf: 'center',
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+
   },
   imagebkd: {
 
@@ -43,8 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'space-between',
-    //alignItems: 'flex-start',
-    //gap: 10,
+
     borderRadius: 12,
     aspectRatio: 1/1.1,
     shadowColor: Themes.dark.shadows.shadowColor,
@@ -62,14 +58,12 @@ const styles = StyleSheet.create({
     color: Themes.dark.text,
     fontSize: 32,
     fontFamily: "Sydney",
-    //marginLeft: 10
 
   },
   captionText: {
     color: Themes.dark.text,
     fontSize: 18,
     fontFamily: "Sydney",
-    //alignSelf: 'flex-end',
-    //justifySelf: 'flex-end',
+    
   },
 });

@@ -47,8 +47,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
 
     backgroundColor: Themes.dark.navigation
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+
   },
   flexIcon: {
     padding: 4,
@@ -56,15 +55,13 @@ const styles = StyleSheet.create({
     minWidth: 75,
     height: '90%',
     display: 'flex',
-    justifyContent: "center", // if flexDirection === "row", justifyContent handles x-axis, else: y-axis
+    justifyContent: "center",
     alignItems: "center",
-    //borderWidth: 1,
-    //borderColor: 'black',
+
   },
   icons: {
     width: 38,
     height: 37,
-    //aspectRatio: 1.1/1,
 
   },
   iconHeart: {

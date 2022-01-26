@@ -41,32 +41,27 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+
   },
   flexIcon: {
     padding: 10,
     width: 50,
     height: 50,
     display: 'flex',
-    justifyContent: "center", // if flexDirection === "row", justifyContent handles x-axis, else: y-axis
+    justifyContent: "center",
     alignItems: "center",
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+
   },
   icons: {
     width: 44,
     height: 44,
   },
   flexLogo: {
-    //padding: ,
     width: 150,
     height: 50,
     display: 'flex',
     alignItems: "center",
     justifyContent: "center",
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
   },
   logo: {
     fontFamily: "Sydney-Bold",

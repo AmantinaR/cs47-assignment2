@@ -29,17 +29,14 @@ export default function Audio() {
 
 const styles = StyleSheet.create({
   flexParent: {
-    //height: Platform.OS === 'ios' ? 54 : 41,
-    //flex: 1.5,
+
     aspectRatio: 2.3/1,
     backgroundColor: Themes.dark.bgSecondary,
     borderRadius: 30,
     display: 'flex',
     flexDirection: 'column',
     padding: 16
-    //justifyContent: 'space-around',
-    //borderWidth: 1,
-    //borderColor: Themes.dark.text,
+
   },
   text: {
     color: Themes.dark.text,
@@ -50,8 +47,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    //borderWidth: 1,
-    //borderColor: 'white',
     height: 90,
     padding: 10,
   },

@@ -20,7 +20,6 @@ export default function App() {
   StatusBar.setBarStyle(Themes.light.statusBar);
   /* ^Don't mind/edit this one either unless you decide to do the dark theme one, in that case, you will have to change it accordingly*/
 
-  /* insert your code here */
 
   return (
     <SafeAreaView style={styles.container}>
@@ -35,10 +34,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Themes.dark.bg,
-    //marginTop:
-    //padding: 48,
-    //alignItems: 'center',
-    //justifyContent: 'center',
   },
   text: {
     color: 'white',
